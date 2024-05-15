@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website - Shubham Darade</title>
+    <link rel="shortcut icon" href="images/s_logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Shubham</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>Shubham Darade</h1>
+            <h3>And I am a <span class="multiple-text"></span></h3>
+            <p>Experienced coder and web developer.</p>
+            <div class="social-media">
+                <!-- <a href="https://www.facebook.com/shantanu.darade.90?mibextid=ZbWKwL"><i
+                        class='bx bxl-facebook'></i></a> -->
+                <a href="https://www.linkedin.com/in/shubham-darade-aa27a5215"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <a download="" href="images/Shubham Darade.pdf" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="images/shubham.png" alt="">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/shubham.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Web Developer</h3>
+            <p>I'm Shubham a dedicated computer engineering student with a passion for problem-solving and web
+                development. My expertise lies in the MERN stack, including MongoDB, Express.js, React.js, and Node.js,
+                alongside expertise in SQL databases. I'm skilled at designing and optimizing database structures.</p>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>Provide tailored website development services that align with clients' unique objectives and
+                    requirements. This encompasses crafting wireframes, mockups,
+                    and prototypes, alongside proficiently coding and ensuring seamless functionality.</p>
+            </div>
+            <div class="services-box">
+                <i class="bx bxs-paint"></i>
+                <h3>Frontend Design</h3>
+                <p>Offering exceptional front-end web design services, crafting websites that are not only visually
+                    captivating but also user-friendly,
+                    tailored precisely to meet clients' specific needs and preferences. My focus is on creating engaging
+                    and visually appealing websites.</p>
+            </div>
+            <div class="services-box">
+                <i class="fa-brands fa-uncharted"></i>
+                <h3>Software Development</h3>
+                <p>Offers custom software design and development services, ensuring tailored solutions that meet your
+                    unique requirements.
+                    Additionally, I offer software maintenance and bug fixing expertise to ensure smooth and efficient
+                    functionality.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/blog.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>BloggerVerse</h4>
+                    <p>Integrated frontend and backend for dynamic features, making blogging enjoyable.</p>
+                    <a href="https://github.com/ShubhamDarade"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/figma.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Book Buddy</h4>
+                    <p>Designed wireframes and prototypes for the Book Buddy project using Figma.</p>
+                    <a
+                        href="https://www.figma.com/design/vqe9xUIJrJYejoOTiR7TNi/Untitled?node-id=0-1&t=r8bWtVWJSFeygdL8-0"><i
+                            class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/news.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>NewsFIasher</h4>
+                    <p>The website provide users with the latest headlines, allow them to search for specific topics</p>
+                    <a href="https://github.com/ShubhamDarade"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form>
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" name="Name" autocomplete="off">
+                <input type="email" placeholder="Email Address" name="Email" autocomplete="off">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number" name="Mobile" autocomplete="off">
+                <input type="text" placeholder="Email Subject" name="Subject" autocomplete="off">
+            </div>
+            <textarea cols="30" rows="10" placeholder="Your Message" name="Message" autocomplete="off"></textarea>
+            <input type="submit" value="send Message" class="btn">
+        </form>
+    </section>
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Shubham | All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
